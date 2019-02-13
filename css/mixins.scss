@@ -1,0 +1,92 @@
+@mixin square ($value) {
+  width: $value;
+  height: $value;
+}
+@mixin py ($value) {
+  padding-top: $value!important;
+  padding-bottom: $value!important;
+}
+@mixin px ($value) {
+  padding-left: $value!important;
+  padding-right: $value!important;
+}
+@mixin pt ($value) {
+  padding-top: $value!important;
+}
+@mixin pb ($value) {
+  padding-bottom: $value!important;
+}
+@mixin px ($value) {
+  padding-left: $value!important;
+  padding-right: $value!important;
+}
+@mixin my ($value) {
+  margin-top: $value!important;
+  margin-bottom: $value!important;
+}
+@mixin mx ($value) {
+  margin-left: $value!important;
+  margin-right: $value!important;
+}
+@mixin mt ($value) {
+  margin-top: $value!important;
+}
+@mixin mb ($value) {
+  margin-bottom: $value!important;
+}
+@mixin transition ($proporties) {
+  -webkit-transition: $proporties;
+       -o-transition: $proporties;
+          transition: $proporties;
+}
+@mixin transform ($proporties) {
+  -webkit-transform: $proporties;
+      -ms-transform: $proporties;
+          transform: $proporties;
+}
+@mixin flex-box() {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@mixin flex-direction($direction) {
+  -webkit-flex-direction: $direction;
+     -moz-flex-direction: $direction;
+      -ms-flex-direction: $direction;
+          flex-direction: $direction;
+}
+@mixin flex-wrap($wrap) {
+  -webkit-flex-wrap: $wrap;
+     -moz-flex-wrap: $wrap;
+      -ms-flex-wrap: $wrap;
+          flex-wrap: $wrap;
+}
+@mixin justify-content($justify) {
+  -webkit-justify-content: $justify;
+     -moz-justify-content: $justify;
+      -ms-justify-content: $justify;
+          justify-content: $justify;
+            -ms-flex-pack: $justify;
+}
+@mixin align-content($align) {
+  -webkit-align-content: $align;
+     -moz-align-content: $align;
+      -ms-align-content: $align;
+          align-content: $align;
+}
+@mixin align-items($align) {
+  -webkit-align-items: $align;
+     -moz-align-items: $align;
+      -ms-align-items: $align;
+          align-items: $align;
+}
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+      -moz-box-shadow: $value;
+          box-shadow: $value;
+}
+@mixin box-sizing($value) {
+  -webkit-box-sizing: $value;
+          box-sizing: $value;
+}

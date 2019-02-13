@@ -1,0 +1,14 @@
+$navy-blue: #21283e;
+$red: #951826;
+$yellow: #f2cb13;
+$white: #fff;
+$gray-brightest: #f4f4f4;
+$gray-bright: #e6e7e9;
+$gray: #d0d1d4;
+$gray-dark: #a5a9ac;
+$gray-darkest: #3a3a39;
+$black: #000;
+
+@mixin color-shadow ($color, $value) {
+  background-color: rgba($color, $value);
+}
